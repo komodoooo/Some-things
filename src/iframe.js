@@ -1,1 +1,1 @@
-<iframe src="sex"></iframe>
+<iframe src="javascript:alert(1)"></iframe>
