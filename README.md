@@ -1,2 +1,2 @@
 # xss-example
-xss code examples
+xss payload examples
