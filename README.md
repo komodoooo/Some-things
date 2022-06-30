@@ -1,4 +1,4 @@
-# xss-examples
-xss payload examples
+# Some things
 
-honestly, i don't take this repo seriously.
+This repo contains **some things**
+
