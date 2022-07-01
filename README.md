@@ -7,5 +7,7 @@ This repo contains **some things**, like:
 * **[Basic SQL injection scanner](https://github.com/komodoooo/some-things/tree/main/broski)**
 * **[Ssh bruter](https://github.com/komodoooo/some-things/tree/main/sexer)**
 * **[Ssl scanner](https://github.com/komodoooo/some-things/tree/main/ssl-scan)**
+* **[Network sniffer](https://github.com/komodoooo/some-things/tree/main/sniffer)**
+* **[Unix system fetch](https://github.com/komodoooo/some-things/tree/main/unix-system-fetch)**
 
 I will add new things.
