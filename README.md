@@ -8,5 +8,7 @@ This repo contains **some things**, like:
 * **[Ssh bruter](https://github.com/komodoooo/some-things/tree/main/sexer)**
 * **[Ssl scanner](https://github.com/komodoooo/some-things/tree/main/ssl-scan)**
 * **[Network sniffer](https://github.com/komodoooo/some-things/tree/main/sniffer)**
+* **[Google url crawler](https://github.com/komodoooo/some-things/tree/main/gugol)**
+* **[YouTube views generator](https://github.com/komodoooo/some-things/tree/main/cade)**
 
 I will add new things.
