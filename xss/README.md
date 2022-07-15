@@ -2,11 +2,11 @@
 
 ### Maybe useful payloads:
 
-[cookie-stealer.js](useful/cookie-stealer.js)
+* [cookie-stealer.js](useful/cookie-stealer.js)
 
-[redirect.js](useful/redirect.js)
+* [redirect.js](useful/redirect.js)
 
-[include.js](useful/include.js)
+* [include.js](useful/include.js)
 
 ### Other:
 
