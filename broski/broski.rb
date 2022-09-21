@@ -6,10 +6,8 @@ puts """
 |  |) /_ |  .--. ''  .-.  ''   .-' |  .'   /|  | 
 |  .-.  \|  '--'.'|  | |  |`.  `-. |  .   ' |  | 
 |  '--' /|  |\  \ '  '-'  '.-'    ||  |\   \|  | 
-`------' `--' '--' `-----' `-----' `--' '--'`--' 
-                                         
+`------' `--' '--' `-----' `-----' `--' '--'`--'                                      
 """
-
 
 def main(url)
     #Some payloads from https://github.com/payloadbox/sql-injection-payload-list          
@@ -24,10 +22,6 @@ def main(url)
         "mysql_fetch_array()", "mysql_query()", "Microsoft SQL Native Client error.",
         "unexpected end of SQL command"]
     
-    if url.end_with?(".php")
-        puts "\nWarning: the target does not appear to have a query, default form: target+?q="
-        url += "?q="
-    end
     payloads.each do |test|
         target = URI.parse(url)
         target.query += test
@@ -50,9 +44,10 @@ end
 
 begin
     print "\nTarget: "
-    target = gets.chomp
-    main(target)
+    main(gets.chomp)
+rescue NoMethodError
+    puts "\nWarning: the target does not appear to have a query"
+    puts "Example target: http://testasp.vulnweb.com/showforum.asp?id=0"
 rescue => error
-    puts "\nERROR:", error
-    puts  "Example target: http://vulnerable.com/index.php?query=69"
+    puts error
 end
