@@ -8,6 +8,8 @@
 
 * [include.js](useful/include.js)
 
+* [overwrite.js](useful/overwrite.js)
+
 ### Other:
 
 ```js
