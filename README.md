@@ -11,6 +11,7 @@ This repo contains **some things**, like:
 * **[Network sniffer](https://github.com/komodoooo/some-things/tree/main/sniffer)**
 * **[Google url crawler](https://github.com/komodoooo/some-things/tree/main/gugol)**
 * **[YouTube views generator](https://github.com/komodoooo/some-things/tree/main/cade)**
+* **[BTW Encoding](https://github.com/komodoooo/some-things/tree/main/btw)**
 
 <details open>
   
