@@ -24,4 +24,12 @@ This repo contains **some things**, like:
   
 </details>
 
-I will add new things.
+### Other things
+
+[Sexfetch](https://github.com/komodoooo/sexfetch), system fetch for unix-like systems
+
+[Zakar](https://github.com/komodoooo/zakar), unofficial small OpenAI API Wrapper for GPT-3 and DALL-E2
+
+
+<br><br>
+**I will add new things.**
