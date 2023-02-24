@@ -28,6 +28,8 @@ This repo contains **some things**, like:
 
 ### Other things
 
+[Flame](https://github.com/komodoooo/flame), windows cringeware in C
+
 [Sexfetch](https://github.com/komodoooo/sexfetch), system fetch for unix-like systems
 
 [Zakar](https://github.com/komodoooo/zakar), unofficial small OpenAI API Wrapper for GPT-3 and DALL-E2
