@@ -1,9 +1,9 @@
 import sys
 import signal
-from colorama import Fore
 from scapy.all import *
+from time import sleep
 
-print(Fore.LIGHTYELLOW_EX+"""                     
+print('\u001b[33;1m'+"""                     
             ___
            /  /
         __/ _/
@@ -14,9 +14,10 @@ print(Fore.LIGHTYELLOW_EX+"""
       //\n
 Press 2 times ctrl+c to exit
 """)
+sleep(1.5)
 
 def exit_nigga(sussy, baka):
-   print(Fore.CYAN+"All saved in log.pcap file!")
+   print('\u001b[36;1m'+"All saved in log.pcap file!")
    sys.exit()
 
 def infinity(owo):
@@ -25,13 +26,13 @@ def infinity(owo):
       yield
 
 def main():
-   print(Fore.CYAN+"Local traffic:\n")
+   print('\u001b[36;1m'+"Local traffic:\n")
    try:
-      desc = Fore.LIGHTGREEN_EX+"%IP.dst% to %IP.src%\n"
+      desc = '\u001b[32;1m'+"%IP.dst% to %IP.src%\n"
       for i in infinity(sniff(filter="127.0.0.1", prn=lambda x:x.sprintf(desc))):
          signal.signal(signal.SIGINT, exit_nigga)
    except Exception as sesso:
-      print(Fore.RED+f"\nERROR: {sesso}")
+      print('\u001b[31;1m'+f"\nERROR: {sesso}"+'\u001b[0m')
       sys.exit()
 
 main()
