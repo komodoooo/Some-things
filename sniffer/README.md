@@ -1,4 +1,4 @@
 # Pysniffer
-Basic network sniffer made with scapy
+Basic network sniffer made with scapy with logs.
 
-Dependencies: `pip install scapy colorama`
+Dependencies: `pip install scapy`
