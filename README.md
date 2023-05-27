@@ -12,7 +12,7 @@ This repo contains **some things**, like:
 * **[Google url crawler](https://github.com/komodoooo/some-things/tree/main/gugol)**
 * **[YouTube views generator](https://github.com/komodoooo/some-things/tree/main/cade)**
 * **[BTW Encoding](https://github.com/komodoooo/some-things/tree/main/btw)**
-
+* **[Reverse shell shoveling automation script](https://github.com/komodoooo/some-things/tree/main/spina)**
 <details open>
   
 <summary>Random Proof of Concepts</summary>
