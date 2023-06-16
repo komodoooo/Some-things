@@ -44,3 +44,6 @@ while True: __import__("requests").post("<webhook>", data={"content":"@here hey"
 
 ### Zoomeye dork
 [`"https://discord.com/api/webhooks/"`](https://www.zoomeye.org/searchResult?q=%22https%5C%3A%2F%2Fdiscord.com%2Fapi%2Fwebhooks%2F%22)
+
+#### But... Can i automate this?
+The answer is obviously yes, i made [this](https://github.com/komodoooo/discord-stuff/blob/main/src/zw.py) script.
