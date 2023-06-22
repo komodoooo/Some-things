@@ -47,3 +47,16 @@ while True: __import__("requests").post("<webhook>", data={"content":"@here hey"
 
 #### But... Can i automate this?
 The answer is obviously yes, i made [this](https://github.com/komodoooo/discord-stuff/blob/main/src/zw.py) script.
+
+# FTP servers with anonymous login allowed 
+Username: _`anonymous`_
+
+Password: _`guest`_
+
+### Shodan query
+[`port:21 "Login successful" "FTP server ready"`](https://www.shodan.io/search?query=port%3A21+%22Login+successful%22+%22FTP+server+ready%22)
+
+[`port:21 "Login successful"`](https://www.shodan.io/search?query=port%3A21+%22Login+successful%22)
+## Find exposed ftp servers on google
+### Google dork
+[`intitle:"index of" inurl:ftp`](https://www.google.com/search?q=intitle%3A%22index+of%22+inurl%3Aftp)
