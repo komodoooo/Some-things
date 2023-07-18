@@ -60,3 +60,9 @@ Password: _`guest`_
 ## Find exposed ftp servers on google
 ### Google dork
 [`intitle:"index of" inurl:ftp`](https://www.google.com/search?q=intitle%3A%22index+of%22+inurl%3Aftp)
+
+# LG Signage default credentials
+### Login
+Default password: _`00000000`_
+### Zoomeye dork
+[`iconhash:79487298 && title:"LG Signage"`](https://www.zoomeye.org/searchResult?q=iconhash%3A79487298%20title%3A%22LG%20Signage%22&t=all)
