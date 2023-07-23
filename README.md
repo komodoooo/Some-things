@@ -12,11 +12,12 @@ This repo contains **some things**, like:
 * **[Google url crawler](https://github.com/komodoooo/some-things/tree/main/gugol)**
 * **[YouTube views generator](https://github.com/komodoooo/some-things/tree/main/cade)**
 * **[BTW Encoding](https://github.com/komodoooo/some-things/tree/main/btw)**
-* **[Reverse shell shoveling automation script](https://github.com/komodoooo/some-things/tree/main/spina)**
+* **[Shell shoveling automation script](https://github.com/komodoooo/some-things/tree/main/spina)**
 <details open>
   
 <summary>Random Proof of Concepts</summary>
 
+* **[CVE-2023-34598](https://gist.github.com/komodoooo/bf9bfea7f229d503e91d108940cf5ec0)**
 * **[CVE-2023-33568](https://gist.github.com/komodoooo/5bf30ba86dc5991304fcf34a7a6f5e26)**
 * **[CVE-2023-27350](https://gist.github.com/komodoooo/43f034a62486bf8051b5075ebf5eac32)**
 * **[CVE-2023-28432](https://gist.github.com/komodoooo/645a7ad31a5a615926d50ffb764992f2)**
