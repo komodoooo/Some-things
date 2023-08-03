@@ -23,7 +23,7 @@ Debian: `apt install android-tools`
 
 Arch: `pacman -S android-tools`
 ### Connect to ADB device
-**Use [this bash script](https://github.com/komodoooo/Some-things/blob/main/adb/adb.sh)** or connect manually
+**Use [this bash script](https://github.com/komodoooo/Some-things/blob/main/tools/adb/adb.sh)** or connect manually
 ### Shodan query
 [`"Android debug bridge (ADB)" -Authentication`](https://www.shodan.io/search?query=%22Android+debug+bridge+%28ADB%29%22+-Authentication)
 # Find exposed discord webhooks
