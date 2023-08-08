@@ -1,20 +1,8 @@
 # Some things
-###### Honestly, i don't take this repo seriously.
 
 This repo contains **some things**, like:
 
-<details>
-<summary>Tools</summary>
-
-* **[ADB shell connection script](https://github.com/komodoooo/Some-things/blob/main/tools/adb/adb.sh)**
-* **[Basic SQL injection scanner](https://github.com/komodoooo/some-things/tree/main/tools/broski)**
-* **[BTW Encoding](https://github.com/komodoooo/some-things/tree/main/tools/btw)**
-* **[Google url crawler](https://github.com/komodoooo/some-things/tree/main/tools/gugol)**
-* **[Network sniffer](https://github.com/komodoooo/some-things/tree/main/tools/sniffer)**
-* **[Ssh bruter](https://github.com/komodoooo/some-things/tree/main/tools/sexer)**
-* **[Ssl scanner](https://github.com/komodoooo/some-things/tree/main/tools/ssl-scan)**
-* **[YouTube views generator](https://github.com/komodoooo/some-things/tree/main/tools/cade)**
-</details>
+**[Mass Hunting Notes](https://github.com/komodoooo/some-things/blob/main/papers.md)**
 <details>
 <summary>Payloads</summary>
 
@@ -36,8 +24,17 @@ This repo contains **some things**, like:
 * **[CVE-2014-0160](https://gist.github.com/komodoooo/4f4b330ab727a5c63d834fcc7bdc433b)**
 * **[CVE-2010-1598](https://gist.github.com/komodoooo/4b5d09e924418ea2654baee25905f851)**
 </details>
+<details>
+<summary>Tools</summary>
 
+* **[ADB shell connection script](https://github.com/komodoooo/Some-things/blob/main/tools/adb/adb.sh)**
+* **[Basic SQL injection scanner](https://github.com/komodoooo/some-things/tree/main/tools/broski)**
+* **[BTW Encoding](https://github.com/komodoooo/some-things/tree/main/tools/btw)**
+* **[Google url crawler](https://github.com/komodoooo/some-things/tree/main/tools/gugol)**
+* **[Network sniffer](https://github.com/komodoooo/some-things/tree/main/tools/sniffer)**
+* **[Ssh bruter](https://github.com/komodoooo/some-things/tree/main/tools/sexer)**
+* **[Ssl scanner](https://github.com/komodoooo/some-things/tree/main/tools/ssl-scan)**
+* **[YouTube views generator](https://github.com/komodoooo/some-things/tree/main/tools/cade)**
+</details>
 
-[Dorky mass hunting tips](https://github.com/komodoooo/some-things/blob/main/papers.md)
-<br><br>
-**I will add new things.**
+###### **I will add new things.**
