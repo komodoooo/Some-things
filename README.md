@@ -1,4 +1,5 @@
 # Some things
+![image](https://github.com/komodoooo/Some-things/assets/68278515/b63db159-153b-4520-8dca-74932ae1e2ef)
 
 This repo contains **some things**, like:
 
