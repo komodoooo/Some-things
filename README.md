@@ -14,6 +14,7 @@ This repo contains **some things**, like:
 <details>
 <summary>Random Proof of Concepts</summary>
 
+* **[CVE-2023-37265](https://gist.github.com/komodoooo/1727bdf564a94df60e756bafa4e449b5)**
 * **[CVE-2023-34598](https://gist.github.com/komodoooo/bf9bfea7f229d503e91d108940cf5ec0)**
 * **[CVE-2023-33568](https://gist.github.com/komodoooo/5bf30ba86dc5991304fcf34a7a6f5e26)**
 * **[CVE-2023-27350](https://gist.github.com/komodoooo/43f034a62486bf8051b5075ebf5eac32)**
