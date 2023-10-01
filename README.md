@@ -5,7 +5,7 @@ This repo contains **some things**, like:
 
 **[Mass Hunting Notes](https://github.com/komodoooo/some-things/blob/main/papers.md)**
 <details>
-<summary>Payloads</summary>
+<summary>Goofy Payloads</summary>
 
 * **[Generic xss payloads](https://github.com/komodoooo/some-things/tree/main/payloads/xss)**
 * **[Shell shoveling automation script](https://github.com/komodoooo/some-things/tree/main/payloads/spina)**
@@ -14,6 +14,7 @@ This repo contains **some things**, like:
 <details>
 <summary>Random Proof of Concepts</summary>
 
+* **[CVE-2023-38433](https://github.com/komodoooo/Some-things/blob/main/papers.md#Fujitsu-IP-series-hardcoded-credentials)**
 * **[CVE-2023-37265](https://gist.github.com/komodoooo/1727bdf564a94df60e756bafa4e449b5)**
 * **[CVE-2023-34598](https://gist.github.com/komodoooo/bf9bfea7f229d503e91d108940cf5ec0)**
 * **[CVE-2023-33568](https://gist.github.com/komodoooo/5bf30ba86dc5991304fcf34a7a6f5e26)**
@@ -27,7 +28,7 @@ This repo contains **some things**, like:
 * **[CVE-2010-1598](https://gist.github.com/komodoooo/4b5d09e924418ea2654baee25905f851)**
 </details>
 <details>
-<summary>Tools</summary>
+<summary>Goofy tools</summary>
 
 * **[ADB shell connection script](https://github.com/komodoooo/Some-things/blob/main/tools/adb/adb.sh)**
 * **[Basic SQL injection scanner](https://github.com/komodoooo/some-things/tree/main/tools/broski)**
