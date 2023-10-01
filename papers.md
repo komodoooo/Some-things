@@ -4,6 +4,7 @@
 * [Android debug bridge misconfiguration](https://github.com/komodoooo/Some-things/blob/main/papers.md#Android-debug-bridge-misconfiguration)
 * [Find exposed discord webhooks](https://github.com/komodoooo/Some-things/blob/main/papers.md#Find-exposed-discord-webhooks)
 * [FTP servers with anonymous login allowed ](https://github.com/komodoooo/Some-things/blob/main/papers.md#FTP-servers-with-anonymous-login-allowed)
+* [Fujitsu IP series hardcoded credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#Fujitsu-IP-series-hardcoded-credentials)
 * [Jenkins code execution](https://github.com/komodoooo/Some-things/blob/main/papers.md#Jenkins-code-execution)
 * [LG Signage default credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#LG-Signage-default-credentials)
 * [SIMATIC HMI_Panel default credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#SIMATIC-HMI_Panel-default-credentials)
@@ -47,6 +48,14 @@ Password: _`guest`_
 ## Find exposed ftp servers on google
 ### Google dork
 [`intitle:"index of" inurl:ftp`](https://www.google.com/search?q=intitle%3A%22index+of%22+inurl%3Aftp)
+# Fujitsu IP series hardcoded credentials
+
+Username: _`fedish264pro`_ **OR** _`fedish265pro`_
+
+Password: _`h264pro@broadsight`_ **OR** _`h265pro@broadsight`_
+###### (Well known as CVE-2023-38433)
+### FOFA query
+[`"Server: thttpd/2.25b 29dec2003" && "Content-Length: 1133"`](https://en.fofa.info/result?qbase64=IlNlcnZlcjogdGh0dHBkLzIuMjViIDI5ZGVjMjAwMyIgJiYgIkNvbnRlbnQtTGVuZ3RoOiAxMTMzIg%3D%3D)
 # Jenkins code execution
 Select _`Manage Jenkins` > `Console Script`_ (Generally **/script** or **/manage/script**)
 
