@@ -14,6 +14,7 @@ This repo contains **some things**, like:
 <details>
 <summary>Random Proof of Concepts</summary>
 
+* **[CVE-2023-43261](https://gist.github.com/komodoooo/f157ceff2ec609d6be2ef21ef252a928)**
 * **[CVE-2023-38433](https://github.com/komodoooo/Some-things/blob/main/papers.md#Fujitsu-IP-series-hardcoded-credentials)**
 * **[CVE-2023-37265](https://gist.github.com/komodoooo/1727bdf564a94df60e756bafa4e449b5)**
 * **[CVE-2023-34598](https://gist.github.com/komodoooo/bf9bfea7f229d503e91d108940cf5ec0)**
