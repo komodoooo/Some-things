@@ -2,6 +2,7 @@
 * [Admin login panels vulnerable to SQLi](https://github.com/komodoooo/Some-things/blob/main/papers.md#Admin-login-panels-vulnerable-to-SQLi)
 * [Algo hardcoded password](https://github.com/komodoooo/Some-things/blob/main/papers.md#Algo-hardcoded-password)
 * [Android debug bridge misconfiguration](https://github.com/komodoooo/Some-things/blob/main/papers.md#Android-debug-bridge-misconfiguration)
+* [BigAnt Admin hardcoded password](https://github.com/komodoooo/Some-things/blob/main/papers.md#BigAnt-Admin-hardcoded-password)
 * [Find exposed discord webhooks](https://github.com/komodoooo/Some-things/blob/main/papers.md#Find-exposed-discord-webhooks)
 * [FTP servers with anonymous login allowed ](https://github.com/komodoooo/Some-things/blob/main/papers.md#FTP-servers-with-anonymous-login-allowed)
 * [Fujitsu IP series hardcoded credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#Fujitsu-IP-series-hardcoded-credentials)
@@ -11,6 +12,7 @@
 * [SMB server misconfiguration](https://github.com/komodoooo/Some-things/blob/main/papers.md#SMB-server-misconfiguration)
 * [VNC Servers with auth disabled](https://github.com/komodoooo/Some-things/blob/main/papers.md#VNC-Servers-with-auth-disabled)
 <br><br>_"A bit of my experience about messing around on the internet"_<br><br>
+
 # Admin login panels vulnerable to SQLi
 Payload: _`1'or'1'='1`_
 ### Google dork
@@ -29,6 +31,11 @@ Arch: `pacman -S android-tools`
 **Use [this bash script](https://github.com/komodoooo/Some-things/blob/main/tools/adb/adb.sh)** or connect manually (default port is 5555)
 ### Shodan query
 [`"Android debug bridge (ADB)" -Authentication`](https://www.shodan.io/search?query=%22Android+debug+bridge+%28ADB%29%22+-Authentication)
+# BigAnt Admin hardcoded password
+### Login
+Default password: _`123456`_
+### Zoomeye dork
+[`"password: <span style=\"color:red\">123456</span>"`](https://www.zoomeye.org/searchResult?q=%22password%5C%3A%20%3Cspan%20style%3D%5C%22color%5C%3Ared%5C%22%3E123456%3C%2Fspan%3E%22)
 # Find exposed discord webhooks
 Simplest way to spam into a webhook in python:
 ```py
