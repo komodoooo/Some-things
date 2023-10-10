@@ -1,18 +1,19 @@
 # Some things
 ![image](https://github.com/komodoooo/Some-things/assets/68278515/b63db159-153b-4520-8dca-74932ae1e2ef)
 
+HAHAHA! Y'all n1g*4z think i'm serious and  wrote some explanations about or some shit? **Pathetic.** <br>
 This repo contains **some things**, like:
 
-**[Mass Hunting Notes](https://github.com/komodoooo/some-things/blob/main/papers.md)**
+**[Mass Hunting Notes 🙀💯](https://github.com/komodoooo/some-things/blob/main/papers.md)**
 <details>
-<summary>Goofy Payloads</summary>
+<summary>Goofy Payloads 🐒😱</summary>
 
 * **[Generic xss payloads](https://github.com/komodoooo/some-things/tree/main/payloads/xss)**
 * **[Shell shoveling automation script](https://github.com/komodoooo/some-things/tree/main/payloads/spina)**
 * **[Tiny webshells for file upload vulnerability](https://github.com/komodoooo/some-things/tree/main/payloads/webshell)**
 </details>
 <details>
-<summary>Random Proof of Concepts</summary>
+<summary>Random Proof of Concepts 🤓🙀</summary>
 
 * **[CVE-2023-43261](https://gist.github.com/komodoooo/f157ceff2ec609d6be2ef21ef252a928)**
 * **[CVE-2023-38433](https://github.com/komodoooo/Some-things/blob/main/papers.md#Fujitsu-IP-series-hardcoded-credentials)**
@@ -29,7 +30,7 @@ This repo contains **some things**, like:
 * **[CVE-2010-1598](https://gist.github.com/komodoooo/4b5d09e924418ea2654baee25905f851)**
 </details>
 <details>
-<summary>Goofy tools</summary>
+<summary>Goofy tools 😱🔥</summary>
 
 * **[ADB shell connection script](https://github.com/komodoooo/Some-things/blob/main/tools/adb/adb.sh)**
 * **[Basic SQL injection scanner](https://github.com/komodoooo/some-things/tree/main/tools/broski)**
