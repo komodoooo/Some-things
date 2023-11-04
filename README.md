@@ -33,7 +33,6 @@ This repo contains **some things**, like:
 <details>
 <summary>Goofy tools 😱🔥</summary>
 
-* **[ADB shell connection script](https://github.com/komodoooo/Some-things/blob/main/tools/adb/adb.sh)**
 * **[Basic SQL injection scanner](https://github.com/komodoooo/some-things/tree/main/tools/broski)**
 * **[BTW Encoding](https://github.com/komodoooo/some-things/tree/main/tools/btw)**
 * **[Google url crawler](https://github.com/komodoooo/some-things/tree/main/tools/gugol)**
