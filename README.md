@@ -9,6 +9,7 @@ This repo contains **some things**, like:
 <summary>Goofy Payloads 🐒😱</summary>
 
 * **[Generic xss payloads](https://github.com/komodoooo/some-things/tree/main/payloads/xss)**
+* **[Shellcode parser](https://github.com/komodoooo/Some-things/blob/main/payloads/sus/psfb.sh)**
 * **[Shell shoveling automation script](https://github.com/komodoooo/some-things/tree/main/payloads/spina)**
 * **[Tiny webshells for file upload vulnerability](https://github.com/komodoooo/some-things/tree/main/payloads/webshell)**
 </details>
