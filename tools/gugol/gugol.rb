@@ -9,7 +9,7 @@ Gugol lode a demor
 def main(query)
     g = "https://google.com/search?q="
     begin
-        search = Nokogiri::HTML(open(g+=CGI.escape(query))).css("a[href]").map{|element|element["href"]}
+        search = Nokogiri::HTML(URI.open(g+=CGI.escape(query))).css("a[href]").map{|element|element["href"]}
         results = Array.new()
         puts "\nResults:\n"
         search.each do |link|
