@@ -8,6 +8,7 @@
 * [Fujitsu IP series hardcoded credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#Fujitsu-IP-series-hardcoded-credentials)
 * [Jenkins code execution](https://github.com/komodoooo/Some-things/blob/main/papers.md#Jenkins-code-execution)
 * [LG Signage default credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#LG-Signage-default-credentials)
+* [Redis auth free access](https://github.com/komodoooo/Some-things/blob/main/papers.md#Redis-auth-free-access)
 * [SIMATIC HMI_Panel default credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#SIMATIC-HMI_Panel-default-credentials)
 * [SMB server misconfiguration](https://github.com/komodoooo/Some-things/blob/main/papers.md#SMB-server-misconfiguration)
 * [VNC Servers with auth disabled](https://github.com/komodoooo/Some-things/blob/main/papers.md#VNC-Servers-with-auth-disabled)
@@ -78,6 +79,12 @@ println("<your cmd>".execute().text)
 Default password: _`00000000`_
 ### Zoomeye dork
 [`iconhash:79487298 && title:"LG Signage"`](https://www.zoomeye.org/searchResult?q=iconhash%3A79487298%20title%3A%22LG%20Signage%22&t=all)
+# Redis auth free access
+### Install [redis-cli](https://redis.io/docs/install/install-redis/)
+### Connecting
+`redis-cli -h <ip>`
+### Shodan query
+[`product:redis "db0"`](https://www.shodan.io/search?query=product%3Aredis+%22db0%22)
 # SIMATIC HMI_Panel default credentials
 ### Login
 Default username: _`Administrator`_
