@@ -3,6 +3,7 @@
 * [Algo hardcoded password](https://github.com/komodoooo/Some-things/blob/main/papers.md#Algo-hardcoded-password)
 * [Android debug bridge misconfiguration](https://github.com/komodoooo/Some-things/blob/main/papers.md#Android-debug-bridge-misconfiguration)
 * [BigAnt Admin hardcoded password](https://github.com/komodoooo/Some-things/blob/main/papers.md#BigAnt-Admin-hardcoded-password)
+* [Elasticsearch misconfiguration](https://github.com/komodoooo/Some-things/blob/main/papers.md#Elasticsearch-misconfiguration)
 * [Find exposed discord webhooks](https://github.com/komodoooo/Some-things/blob/main/papers.md#Find-exposed-discord-webhooks)
 * [FTP servers with anonymous login allowed ](https://github.com/komodoooo/Some-things/blob/main/papers.md#FTP-servers-with-anonymous-login-allowed)
 * [Fujitsu IP series hardcoded credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#Fujitsu-IP-series-hardcoded-credentials)
@@ -48,6 +49,13 @@ while True: __import__("requests").post("<webhook>", data={"content":"@here hey"
 [`"https://discord.com/api/webhooks/"`](https://www.zoomeye.org/searchResult?q=%22https%5C%3A%2F%2Fdiscord.com%2Fapi%2Fwebhooks%2F%22)
 #### But... Can i automate this?
 The answer is obviously yes, i made [this](https://github.com/komodoooo/discord-stuff/blob/main/src/zw.py) script.
+# Elasticsearch misconfiguration
+### View all indices
+Base URL + `/_cat/indices?v`
+### View an index content
+Base URL + `/<name>/_search?pretty=true&size=9999`
+### FOFA query
+[`protocol="elastic" && banner="200 OK"`](https://fofa.info/result?qbase64=cHJvdG9jb2w9ImVsYXN0aWMiICYmIGJhbm5lcj0iMjAwIE9LIiA%3D)
 # FTP servers with anonymous login allowed 
 Username: _`anonymous`_
 
