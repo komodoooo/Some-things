@@ -35,6 +35,7 @@ This repo contains **some things**, like:
 <details>
 <summary>Goofy tools 😱🔥</summary>
 
+* **[Autoclicker](https://github.com/komodoooo/Some-things/tree/main/tools/autoclicker)**
 * **[Basic SQL injection scanner](https://github.com/komodoooo/some-things/tree/main/tools/broski)**
 * **[BTW Encoding](https://github.com/komodoooo/some-things/tree/main/tools/btw)**
 * **[Google url crawler](https://github.com/komodoooo/some-things/tree/main/tools/gugol)**
