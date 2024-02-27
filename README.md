@@ -38,6 +38,7 @@ This repo contains **some things**, like:
 * **[Autoclicker](https://github.com/komodoooo/Some-things/tree/main/tools/autoclicker)**
 * **[Basic SQL injection scanner](https://github.com/komodoooo/some-things/tree/main/tools/broski)**
 * **[BTW Encoding](https://github.com/komodoooo/some-things/tree/main/tools/btw)**
+* **[Compromised email checker](https://github.com/komodoooo/Some-things/tree/main/tools/tenkai)**
 * **[Google url crawler](https://github.com/komodoooo/some-things/tree/main/tools/gugol)**
 * **[Network sniffer](https://github.com/komodoooo/some-things/tree/main/tools/sniffer)**
 * **[Ssh bruter](https://github.com/komodoooo/some-things/tree/main/tools/sexer)**
