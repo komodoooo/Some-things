@@ -41,6 +41,12 @@ Arch: `pacman -S android-tools`
 Default password: _`123456`_
 ### Zoomeye dork
 [`"password: <span style=\"color:red\">123456</span>"`](https://www.zoomeye.org/searchResult?q=%22password%5C%3A%20%3Cspan%20style%3D%5C%22color%5C%3Ared%5C%22%3E123456%3C%2Fspan%3E%22)
+# Cassandra exposed databases authfree
+Default credentials (if they really require one) are cassandra:cassandra
+### Hunter query
+[`protocol="cassandra"`](https://hunter.how/list?searchValue=protocol%3D%22cassandra%22)
+### Dumping all
+Use [cqldump](https://github.com/komodoooo/cqldump)
 # Find exposed discord webhooks
 Simplest way to spam into a webhook in python:
 ```py
@@ -50,12 +56,6 @@ while True: __import__("requests").post("<webhook>", data={"content":"@here hey"
 [`"https://discord.com/api/webhooks/"`](https://www.zoomeye.org/searchResult?q=%22https%5C%3A%2F%2Fdiscord.com%2Fapi%2Fwebhooks%2F%22)
 #### But... Can i automate this?
 The answer is obviously yes, i made [this](https://github.com/komodoooo/discord-stuff/blob/main/src/zw.py) script.
-# Cassandra exposed databases authfree
-Default credentials (if they really require one) are cassandra:cassandra
-### Hunter query
-[`protocol="cassandra"`](https://hunter.how/list?searchValue=protocol%3D%22cassandra%22)
-### Dumping all
-Use [cqldump](https://github.com/komodoooo/cqldump)
 # Elasticsearch misconfiguration
 ### View all indices
 Base URL + `/_cat/indices?v`
