@@ -39,6 +39,7 @@ This repo contains **some things**, like:
 * **[Basic SQL injection scanner](https://github.com/komodoooo/some-things/tree/main/tools/broski)**
 * **[BTW Encoding](https://github.com/komodoooo/some-things/tree/main/tools/btw)**
 * **[Compromised email checker](https://github.com/komodoooo/Some-things/tree/main/tools/tenkai)**
+* **[Directory fuzzer](https://github.com/komodoooo/Some-things/blob/main/tools/dirfuzz/dirfuzz.rb)**
 * **[Google url crawler](https://github.com/komodoooo/some-things/tree/main/tools/gugol)**
 * **[Network sniffer](https://github.com/komodoooo/some-things/tree/main/tools/sniffer)**
 * **[Ssh bruter](https://github.com/komodoooo/some-things/tree/main/tools/sexer)**
