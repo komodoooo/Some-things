@@ -7,6 +7,8 @@ Beside **a working wireless NIC** you also need the following packages on your l
 * _`python3` and `python-scapy`_
 ## Get the BSSID
 Run the `iw dev wlan0 scan` command and grab the respective MAC address of the chosen wireless network.
+### View avaible wireless interfaces
+Just run `iwconfig`
 ## Usage 
 You need to run this program with privileges. Use `sudo`.
 ```
