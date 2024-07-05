@@ -1,6 +1,7 @@
 # Deauth attack
 Deauthenticate all devices from a wireless network exploiting the deauthentication frame in the IEEE 802.11w standard.
-Basically, this script send a deauthentication frame to the wireless access point to the broadcast MAC address, causing a temporarily disconnection of all devices.
+Basically, this script send a deauthentication frame to the wireless access point to the broadcast MAC address,
+leading to a denial of service causing a temporarily disconnection of all devices.
 ## Requirements
 Beside **a working wireless NIC** you also need the following packages on your linux-based distribution to run the script:
 * _`net-tools` and `wireless-tools`(`wireless_tools` for arch-based distros)_
