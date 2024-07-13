@@ -4,6 +4,7 @@
 * [Android debug bridge misconfiguration](https://github.com/komodoooo/Some-things/blob/main/papers.md#Android-debug-bridge-misconfiguration)
 * [BigAnt Admin hardcoded password](https://github.com/komodoooo/Some-things/blob/main/papers.md#BigAnt-Admin-hardcoded-password)
 * [Cassandra exposed databases authfree](https://github.com/komodoooo/Some-things/blob/main/papers.md#Cassandra-exposed-databases-authfree)
+* [Deep Sea electronics default credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#deep-sea-electronics-default-credentials)
 * [Elasticsearch misconfiguration](https://github.com/komodoooo/Some-things/blob/main/papers.md#Elasticsearch-misconfiguration)
 * [Find exposed discord webhooks](https://github.com/komodoooo/Some-things/blob/main/papers.md#Find-exposed-discord-webhooks)
 * [Firebase misconfiguration](https://github.com/komodoooo/Some-things/blob/main/papers.md#Firebase-misconfiguration)
@@ -48,6 +49,13 @@ Default credentials (if they really require one) are cassandra:cassandra
 [`protocol="cassandra"`](https://hunter.how/list?searchValue=protocol%3D%22cassandra%22)
 ### Dumping all
 Use [cqldump](https://github.com/komodoooo/cqldump)
+# Deep sea electronics default credentials
+### Credentials
+Admin Password1234
+### FOFA queries
+[`title="DSE 855"`](https://fofa.info/result?qbase64=dGl0bGU9IkRTRSA4NTUi) _(known as CVE-2024-5947)_
+
+[`header="DSE0890" || header="DSE0891" || header="DSE0892"`](https://fofa.info/result?qbase64=aGVhZGVyPSJEU0UwODkwIiB8fCBoZWFkZXI9IkRTRTA4OTEiIHx8IGhlYWRlcj0iRFNFMDg5MiI%3D)
 # Find exposed discord webhooks
 Simplest way to spam into a webhook in python:
 ```py
