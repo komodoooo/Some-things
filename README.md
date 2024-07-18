@@ -1,7 +1,13 @@
-# Some things
-![image](https://github.com/komodoooo/Some-things/assets/68278515/b63db159-153b-4520-8dca-74932ae1e2ef)
+![image](https://github.com/user-attachments/assets/ac1b592b-bac4-460f-83be-9ae08a6886ee)
 
-HAHAHA! Y'all n1g*4z think i'm serious and  wrote some explanations about or some shit? **Pathetic.** <br>
+# This repo is too messy
+I writed a blog that contains maybe the most interesting parts of this repository, with some explanations, [Terrons](https://terrons.pages.dev).<br>
+If you want to see **some things** randomly with almost no explanations, go ahead.
+
+<details>
+<summary>This was the old readme</summary>
+
+<br>HAHAHA! Y'all n1g*4z think i'm serious and  wrote some explanations about or some shit? **Pathetic.** <br>
 This repo contains **some things**, like:
 
 **[Mass Hunting Notes 🙀💯](https://github.com/komodoooo/some-things/blob/main/papers.md)**
@@ -51,3 +57,6 @@ This repo contains **some things**, like:
 </details>
 
 ###### **I will add new things.**
+
+</details>
+
