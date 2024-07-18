@@ -1,7 +1,7 @@
-![image](https://github.com/user-attachments/assets/ac1b592b-bac4-460f-83be-9ae08a6886ee)
+![aaq](https://github.com/user-attachments/assets/750c38c2-f395-4d8d-a58e-14db1051f00a)
 
 # This repo is too messy
-I writed a blog that contains maybe the most interesting parts of this repository, with some explanations, [Terrons](https://terrons.pages.dev).<br>
+I writed a blog that contains maybe the most interesting parts of this repository, [Terrons](https://terrons.pages.dev).<br>
 If you want to see **some things** randomly with almost no explanations, go ahead.
 
 <details>
