@@ -1,11 +1,11 @@
 ![aaq](https://github.com/user-attachments/assets/750c38c2-f395-4d8d-a58e-14db1051f00a)
 
-# This repo is too messy
+# Some things
 I writed a blog that contains maybe the most interesting parts of this repository, [Terrons](https://terrons.pages.dev).<br>
 If you want to see **some things** randomly with almost no explanations, go ahead.
 
 <details>
-<summary>This was the old readme</summary>
+<summary>SOME THINGS</summary>
 
 <br>HAHAHA! Y'all n1g*4z think i'm serious and  wrote some explanations about or some shit? **Pathetic.** <br>
 This repo contains **some things**, like:
