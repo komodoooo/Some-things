@@ -21,7 +21,8 @@ This repo contains **some things**, like:
 </details>
 <details>
 <summary>Random Proof of Concepts 🤓🙀</summary>
-  
+
+* **[CVE-2024-7120](https://gist.github.com/komodoooo/bae8e73df6e28278ed737d1b10212648)**
 * **[CVE-2024-5947](https://github.com/komodoooo/Some-things/blob/main/papers.md#deep-sea-electronics-default-credentials)**
 * **[CVE-2024-31621](https://gist.github.com/komodoooo/3666c2a3dc8db566d439f7a936c90ea7)**
 * **[CVE-2024-22901](https://github.com/komodoooo/Some-things/blob/main/papers.md#Vinchin-default-MySQL-credentials)**
