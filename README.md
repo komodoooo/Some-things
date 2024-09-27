@@ -50,6 +50,7 @@ This repo contains **some things**, like:
 * **[Compromised email checker](https://github.com/komodoooo/Some-things/tree/main/tools/tenkai)**
 * **[Wifi deauth attack script](https://github.com/komodoooo/Some-things/tree/main/tools/deauth)**
 * **[Directory fuzzer](https://github.com/komodoooo/Some-things/blob/main/tools/dirfuzz/dirfuzz.rb)**
+* **[Dump public S3 buckets](https://github.com/komodoooo/Some-things/blob/main/tools/cholo/cholo.go)**
 * **[Google url crawler](https://github.com/komodoooo/some-things/tree/main/tools/gugol)**
 * **[Network sniffer](https://github.com/komodoooo/some-things/tree/main/tools/sniffer)**
 * **[Ssh bruter](https://github.com/komodoooo/some-things/tree/main/tools/sexer)**
