@@ -2,22 +2,27 @@
 
 # Some things
 I writed a blog that contains maybe the most interesting parts of this repository, [Terrons](https://terrons.pages.dev).<br>
-If you want to see **some things** randomly with almost no explanations, go ahead.
+This is just a mess filled with some bullshits-
+
+**[Mass Hunting Notes 🙀💯](https://github.com/komodoooo/some-things/blob/main/papers.md)**<br>
+**[XSS & SQLi login bypass Payloads 🐒😱](https://github.com/komodoooo/some-things/blob/main/payloads.md)**
 
 <details>
-<summary>SOME THINGS</summary>
+<summary>Goofy tools 😱🔥</summary>
 
-<br>HAHAHA! Y'all n1g*4z think i'm serious and  wrote some explanations about or some shit? **Pathetic.** <br>
-This repo contains **some things**, like:
-
-**[Mass Hunting Notes 🙀💯](https://github.com/komodoooo/some-things/blob/main/papers.md)**
-<details>
-<summary>Goofy Payloads 🐒😱</summary>
-
-* **[Generic xss payloads](https://github.com/komodoooo/some-things/tree/main/payloads/xss)**
-* **[Shellcode parser](https://github.com/komodoooo/Some-things/blob/main/payloads/sus/psfb.sh)**
-* **[Shell shoveling automation script](https://github.com/komodoooo/some-things/tree/main/payloads/spina)**
-* **[Tiny webshells for file upload vulnerability](https://github.com/komodoooo/some-things/tree/main/payloads/webshell)**
+* **[Autoclicker](https://github.com/komodoooo/Some-things/blob/main/things/chick.py)**
+* **[Basic SQL injection scanner](https://github.com/komodoooo/some-things/blob/main/things/broski.rb)**
+* **[BTW Encoding](https://github.com/komodoooo/some-things/blob/main/things/btw.py)**
+* **[Compromised email checker](https://github.com/komodoooo/Some-things/blob/main/things/tenkai.rb)**
+* **[Wifi deauth attack script](https://github.com/komodoooo/Some-things/blob/main/things/deauth.py)**
+* **[Directory fuzzer](https://github.com/komodoooo/Some-things/blob/main/things/dirfuzz.rb)**
+* **[Dump public S3 buckets](https://github.com/komodoooo/Some-things/blob/main/things/cholo.go)**
+* **[Edit strings in binary files](https://gist.github.com/komodoooo/9df08a7fd32f13c5e08773512ed14910)**
+* **[Google url crawler](https://github.com/komodoooo/some-things/blob/main/things/gugol.rb)**
+* **[Network sniffer](https://github.com/komodoooo/some-things/blob/main/things/pysniffer.py)**
+* **[Ssh bruter](https://github.com/komodoooo/some-things/blob/main/things/sexer-ssh.rb)**
+* **[Ssl scanner](https://github.com/komodoooo/some-things/blob/main/things/ssl-scanner.rb)**
+* **[YouTube views generator](https://github.com/komodoooo/some-things/blob/main/things/cade.py)**
 </details>
 <details>
 <summary>Random Proof of Concepts 🤓🙀</summary>
@@ -41,25 +46,5 @@ This repo contains **some things**, like:
 * **[CVE-2014-0160](https://gist.github.com/komodoooo/4f4b330ab727a5c63d834fcc7bdc433b)**
 * **[CVE-2010-1598](https://gist.github.com/komodoooo/4b5d09e924418ea2654baee25905f851)**
 </details>
-<details>
-<summary>Goofy tools 😱🔥</summary>
-
-* **[Autoclicker](https://github.com/komodoooo/Some-things/tree/main/tools/autoclicker)**
-* **[Basic SQL injection scanner](https://github.com/komodoooo/some-things/tree/main/tools/broski)**
-* **[BTW Encoding](https://github.com/komodoooo/some-things/tree/main/tools/btw)**
-* **[Compromised email checker](https://github.com/komodoooo/Some-things/tree/main/tools/tenkai)**
-* **[Wifi deauth attack script](https://github.com/komodoooo/Some-things/tree/main/tools/deauth)**
-* **[Directory fuzzer](https://github.com/komodoooo/Some-things/blob/main/tools/dirfuzz/dirfuzz.rb)**
-* **[Dump public S3 buckets](https://github.com/komodoooo/Some-things/blob/main/tools/cholo/cholo.go)**
-* **[Edit strings in binary files](https://gist.github.com/komodoooo/9df08a7fd32f13c5e08773512ed14910)**
-* **[Google url crawler](https://github.com/komodoooo/some-things/tree/main/tools/gugol)**
-* **[Network sniffer](https://github.com/komodoooo/some-things/tree/main/tools/sniffer)**
-* **[Ssh bruter](https://github.com/komodoooo/some-things/tree/main/tools/sexer)**
-* **[Ssl scanner](https://github.com/komodoooo/some-things/tree/main/tools/ssl-scan)**
-* **[YouTube views generator](https://github.com/komodoooo/some-things/tree/main/tools/cade)**
-</details>
 
 ###### **I will add new things.**
-
-</details>
-
