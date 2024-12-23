@@ -1,27 +1,32 @@
 require 'http'
 require 'json'
+require 'open-uri'
 
 def compromised(email, view_domains)
     r=HTTP.get("https://api.threatcop.com/api/tool/emailCheck?email=#{email}",:headers=>{"Content-Type"=>"application/json"})
     res=JSON.load(r.body)
     if res["success"]
-        print "#{email} "
+        puts email
         if view_domains
             res["emailCheck"].length().times do |i|
-                print res["emailCheck"][i]["Domain"]+" "
+                puts "\t"+res["emailCheck"][i]["Domain"]
             end
         end
-        puts
     end
 end
 
 begin
-    email_list=File.open(ARGV[0])
-    email_list.map{|x|x.chomp}.each do |y|
-        compromised(y,ARGV[1]=="-d"?true:false)
+    if File.exist?(ARGV[0])
+        File.open(ARGV[0]).map{|x|x.chomp}.each do |y|
+            compromised(y, ARGV[1]=="-d"?true:false)
+        end
+    elsif URI::MailTo::EMAIL_REGEXP.match?(ARGV[0])
+        compromised(ARGV[0], ARGV[1]=="-d"?true:false)
+    else
+        raise TypeError
     end
 rescue TypeError
-    puts "Usage: ruby tenkai.rb [emails-file]\n\t-d (optional) view in which sites the email was found compromised"
+    puts "Usage: ruby tenkai.rb [ email / emails-file ]\n\t-d (optional) view in which sites the email was found compromised"
 rescue => e
     abort(e.to_s)
 end
