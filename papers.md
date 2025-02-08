@@ -11,11 +11,13 @@
 * [FTP servers with anonymous login allowed ](https://github.com/komodoooo/Some-things/blob/main/papers.md#FTP-servers-with-anonymous-login-allowed)
 * [Fujitsu IP series hardcoded credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#Fujitsu-IP-series-hardcoded-credentials)
 * [Jenkins code execution](https://github.com/komodoooo/Some-things/blob/main/papers.md#Jenkins-code-execution)
+* [LDAP anonymous binding allowed]https://github.com/komodoooo/Some-things/blob/main/papers.md#LDAP-anonymous-binding-allowed)
 * [LG Signage default credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#LG-Signage-default-credentials)
 * [Redis auth free access](https://github.com/komodoooo/Some-things/blob/main/papers.md#Redis-auth-free-access)
 * [Rsync exposed files](https://github.com/komodoooo/Some-things/blob/main/papers.md#Rsync-exposed-files)
 * [SIMATIC HMI_Panel default credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#SIMATIC-HMI_Panel-default-credentials)
 * [SMB server misconfiguration](https://github.com/komodoooo/Some-things/blob/main/papers.md#SMB-server-misconfiguration)
+* [SQLite Web free panel](https://github.com/komodoooo/Some-things/blob/main/papers.md#SQLite-web-free-panel)
 * [Vinchin default MySQL credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#Vinchin-default-MySQL-credentials)
 * [VNC Servers with auth disabled](https://github.com/komodoooo/Some-things/blob/main/papers.md#VNC-Servers-with-auth-disabled)
 <br><br>_"A bit of my experience about messing around on the internet"_<br><br>
@@ -127,6 +129,12 @@ Default password: _`00000000`_
 `redis-cli -h <ip>`
 ### Shodan query
 [`product:redis "db0"`](https://www.shodan.io/search?query=product%3Aredis+%22db0%22)
+# LDAP anonymous binding allowed
+### Dumping all
+[my gist](https://gist.github.com/komodoooo/66674ad269771db4681e5e4800d22956)
+#### Shodan & censys queries
+`"LDAP" "SupportedSASLMechanisms: ANONYMOUS"`
+`services.ldap.allows_anonymous_bind: true`
 # Rsync exposed files
 ### Install
 Use your own package manager
@@ -152,6 +160,10 @@ Arch: `pacman -S smbclient`
 `smbclient -N \\\\{address}\\Users`
 ### Shodan query
 [`port:445 "Authentication: disabled" "Users"`](https://www.shodan.io/search?query=port%3A445+%22Authentication%3A+disabled%22+%22Users%22)
+# SQLite Web free panel
+Just search for auth-free dashboards
+#### Hunter query
+[`web.title="SQLite Web" and web.body!="<h3>Login</h3>"`](https://hunter.how/list?searchValue=web.title%3D%22SQLite%20Web%22%20and%20web.body%21%3D%22%3Ch3%3ELogin%3C%2Fh3%3E%22)
 # Vinchin default MySQL credentials
 Username: `vinchin`
 
