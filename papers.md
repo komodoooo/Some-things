@@ -11,7 +11,7 @@
 * [FTP servers with anonymous login allowed ](https://github.com/komodoooo/Some-things/blob/main/papers.md#FTP-servers-with-anonymous-login-allowed)
 * [Fujitsu IP series hardcoded credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#Fujitsu-IP-series-hardcoded-credentials)
 * [Jenkins code execution](https://github.com/komodoooo/Some-things/blob/main/papers.md#Jenkins-code-execution)
-* [LDAP anonymous binding allowed]https://github.com/komodoooo/Some-things/blob/main/papers.md#LDAP-anonymous-binding-allowed)
+* [LDAP anonymous binding allowed](https://github.com/komodoooo/Some-things/blob/main/papers.md#LDAP-anonymous-binding-allowed)
 * [LG Signage default credentials](https://github.com/komodoooo/Some-things/blob/main/papers.md#LG-Signage-default-credentials)
 * [Redis auth free access](https://github.com/komodoooo/Some-things/blob/main/papers.md#Redis-auth-free-access)
 * [Rsync exposed files](https://github.com/komodoooo/Some-things/blob/main/papers.md#Rsync-exposed-files)
