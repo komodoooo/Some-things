@@ -22,6 +22,7 @@ This is just a mess filled with some bullshits-
 * **[Network sniffer](https://github.com/komodoooo/some-things/blob/main/things/pysniffer.py)**
 * **[Ssh bruter](https://github.com/komodoooo/some-things/blob/main/things/sexer-ssh.rb)**
 * **[Ssl scanner](https://github.com/komodoooo/some-things/blob/main/things/ssl-scanner.rb)**
+* **[Windows Network profiles dumper](https://github.com/komodoooo/Some-things/blob/main/things/wnut.go)**
 * **[YouTube views generator](https://github.com/komodoooo/some-things/blob/main/things/cade.py)**
 </details>
 <details>
